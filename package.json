@@ -1,0 +1,14 @@
+{
+  "name": "@sxzz/renovate-config",
+  "author": "三咲智子 <sxzz@sxzz.moe>",
+  "license": "MIT",
+  "scripts": {
+    "test": "renovate-config-validator ./default.json"
+  },
+  "files": [
+    "default.json"
+  ],
+  "dependencies": {
+    "renovate": "^35.31.5"
+  }
+}
