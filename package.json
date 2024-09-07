@@ -10,6 +10,6 @@
     "default.json"
   ],
   "dependencies": {
-    "renovate": "^35.31.5"
+    "renovate": "^38.72.0"
   }
 }
