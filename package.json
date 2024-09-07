@@ -2,6 +2,7 @@
   "name": "@sxzz/renovate-config",
   "author": "三咲智子 <sxzz@sxzz.moe>",
   "license": "MIT",
+  "packageManager": "pnpm@9.9.0",
   "scripts": {
     "test": "renovate-config-validator ./default.json"
   },
