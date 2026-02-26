@@ -9,6 +9,6 @@
       "enabled": false
     }
   ],
-  "ignoreDeps": ["node", "eslint"],
+  "ignoreDeps": ["node"],
   "postUpdateOptions": ["pnpmDedupe"]
 }
