@@ -7,6 +7,10 @@
     {
       "matchDepTypes": ["peerDependencies"],
       "enabled": false
+    },
+    {
+      "matchDepNames": ["typescript"],
+      "allowedVersions": "<7.0.0"
     }
   ],
   "ignoreDeps": ["node"],
