@@ -11,8 +11,12 @@
     {
       "matchDepNames": ["typescript"],
       "allowedVersions": "<7.0.0"
+    },
+    {
+      "matchDepNames": ["node"],
+      "matchDepTypes": ["engines"],
+      "enabled": false
     }
   ],
-  "ignoreDeps": ["node"],
   "postUpdateOptions": ["pnpmDedupe"]
 }
