@@ -2,7 +2,13 @@
   "name": "@sxzz/renovate-config",
   "author": "三咲智子 <sxzz@sxzz.moe>",
   "license": "MIT",
-  "packageManager": "pnpm@9.9.0",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.5.0",
+      "onFail": "download"
+    }
+  },
   "scripts": {
     "test": "renovate-config-validator ./default.json"
   },
@@ -10,6 +16,6 @@
     "default.json"
   ],
   "dependencies": {
-    "renovate": "^38.72.0"
+    "renovate": "^44.103.0"
   }
 }
