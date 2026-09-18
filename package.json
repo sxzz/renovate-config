@@ -1,6 +1,7 @@
 {
   "name": "@sxzz/renovate-config",
-  "author": "三咲智子 <sxzz@sxzz.moe>",
+  "private": true,
+  "author": "Kevin Deng <sxzz@sxzz.moe>",
   "license": "MIT",
   "devEngines": {
     "packageManager": {
